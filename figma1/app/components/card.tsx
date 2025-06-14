@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import Info from './info'
 
 const GymCard = () => {
   return (
-    <div>
+    <div className='flex border-amber-500 gap-10'>
         <img src="/public/puxada.jpg" alt="puxada" />
-        <p></p>
-        <p></p>
+        <Info />
         <img src="/public/Icons.png" alt="info" />
     </div>
   )

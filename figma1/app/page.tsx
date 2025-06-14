@@ -3,8 +3,11 @@ import GymCard from "./components/card";
 
 export default function Home() {
   return (
-    <div>
-      <GymCard></GymCard>
+    <div className="flex-col justify-center">
+      <GymCard />
+      <GymCard />
+      <GymCard />
+      <GymCard />
     </div>
   );
 }
